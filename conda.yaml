@@ -1,0 +1,11 @@
+name: csgo_workflow_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - mlflow==2.19.0
+      - scikit-learn
+      - pandas
+      - numpy
